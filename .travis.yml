@@ -1,4 +1,5 @@
 script: "./scripts/build.sh"
+deploy:
 - provider: s3
   region: eu-west-2
   bucket: jimmy-and-the-as

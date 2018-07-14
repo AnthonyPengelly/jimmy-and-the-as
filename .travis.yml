@@ -1,0 +1,6 @@
+script: "./scripts/build.sh"
+- provider: s3
+  region: eu-west-2
+  bucket: jimmy-and-the-as
+  local_dir: "./public"
+  skip_cleanup: true

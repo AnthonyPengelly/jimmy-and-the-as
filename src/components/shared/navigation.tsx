@@ -15,6 +15,11 @@ export class Navigation extends React.Component<{}, {}> {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
+                        <LinkContainer to="/">
+                            <NavItem>
+                                Home
+                            </NavItem>
+                        </LinkContainer>
                         <LinkContainer to="/about">
                             <NavItem>
                                 About

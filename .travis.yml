@@ -2,6 +2,6 @@ script: "./scripts/build.sh"
 deploy:
 - provider: s3
   region: eu-west-2
-  bucket: jimmy-and-the-as
+  bucket: jimmyandtheas.co.uk
   local_dir: "./public"
   skip_cleanup: true

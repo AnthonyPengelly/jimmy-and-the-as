@@ -8,6 +8,8 @@ module.exports = {
         path: __dirname + "/public"
     },
 
+    mode: "production",
+
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
 

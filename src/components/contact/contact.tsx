@@ -19,7 +19,7 @@ export class Contact extends React.Component<{}, {}> {
                     <Facebook size={ICON_SIZE} color="#3B5998" /> https://facebook.com/jimmyandtheas
                 </a></p>
                 <p><a href="https://twitter.com/jimmyandtheas" target="_blank">
-                    <Twitter size={ICON_SIZE} color="#1DA1F2" /> @jimmyandtheas
+                    <Twitter size={ICON_SIZE} color="#1DA1F2" /> @JimmyAndTheAs
                 </a></p>
                 <p><a href="https://instagram.com/jimmyandtheas" target="_blank">
                     <Instagram size={ICON_SIZE} color="#000000" /> @jimmyandtheas

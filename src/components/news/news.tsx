@@ -5,8 +5,8 @@ export class News extends React.Component<{}, {}> {
     render() {
         return (
             <div>
-                <h1>Jimmy and the As</h1>
-                <h2>News - Coming soon!</h2>
+                <h1>News</h1>
+                <h2>Coming soon!</h2>
             </div>
         );
     }

@@ -35,6 +35,13 @@ module.exports = {
                     'sass-loader',
                 ],
             },
+            {
+                test: /react-icons\/(.)*(.js)$/,
+                loader: 'babel-loader',
+                query: {
+                  presets: ['es2015', 'react']
+                }
+            },
 
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
             { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }

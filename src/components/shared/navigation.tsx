@@ -15,7 +15,7 @@ export class Navigation extends React.Component<{}, {}> {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
-                        <LinkContainer to="/">
+                        <LinkContainer exact to="/">
                             <NavItem>
                                 Home
                             </NavItem>

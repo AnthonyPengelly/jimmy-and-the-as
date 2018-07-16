@@ -3,19 +3,27 @@
 // Override bootstrap
 .navbar {
     background-color: $theme-color-4;
-    border-color: $theme-color-4;
-    
-    .navbar-nav > li > a {
-        color: $theme-color-2;
+    border: none;
+
+    .navbar-brand {
+        color: $theme-color-6;
 
         &:focus, &:hover {
-            color: $theme-color-2;
+            color: $theme-color-6;
+        }
+    }
+    
+    .navbar-nav > li > a {
+        color: $theme-color-6;
+
+        &:focus, &:hover {
+            color: $theme-color-6;
             background-color: $theme-color-4-hover;
         }
     }
 
     .navbar-nav > .active > a {
         color: $theme-color-4;
-        background-color: $theme-color-2;
+        background-color: $theme-color-6;
     }
 }

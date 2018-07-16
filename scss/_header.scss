@@ -1,0 +1,72 @@
+@import "breakpoints";
+
+.header {
+    position: relative;
+
+    .main-title {
+        color: white;
+        padding: 100px 0;
+        margin: 0;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .image-carousel {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+
+        // Override bootstrap styles
+        .carousel {
+            height: 100%;
+
+            .carousel-inner {
+                height: 100%;
+
+                .item {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .carousel-image {
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @include mobile {
+        .main-title {
+            padding: 100px 0;
+        }
+    }
+
+    @include tablet {
+        .main-title {
+            padding: 120px 0;
+            font-size: 6rem;
+            line-height: 7rem;
+        }
+    }
+
+    @include desktop {
+        .main-title {
+            padding: 150px 0;
+            font-size: 7rem;
+            line-height: 8rem;
+        }
+    }
+
+    @include large-desktop {
+        .main-title {
+            padding: 150px 0;
+            font-size: 9rem;
+            line-height: 10rem;
+        }
+    }
+}

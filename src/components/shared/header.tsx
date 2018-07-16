@@ -13,7 +13,6 @@ export class Header extends React.Component<{}, {}> {
         const carouselItems = CAROUSEL_IMAGES.map((image, index) => (
             <Carousel.Item key={index}>
                 <div className="carousel-image" style={{backgroundImage:`url(${image.path})`}}></div>
-
             </Carousel.Item>
         ));
 
@@ -21,7 +20,7 @@ export class Header extends React.Component<{}, {}> {
             <div className="header">
                 <h1 className="main-title">Jimmy &amp; the As</h1>
                 <div className="image-carousel">
-                    <Carousel>
+                    <Carousel controls={false}>
                         {carouselItems}
                     </Carousel>
                 </div>

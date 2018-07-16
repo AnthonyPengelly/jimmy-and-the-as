@@ -8,10 +8,12 @@ import { About } from "./components/about/about";
 import { News } from "./components/news/news";
 import { Contact } from "./components/contact/contact";
 import { Navigation } from "./components/shared/navigation";
+import { Header } from "./components/shared/header";
 
 ReactDOM.render((
     <HashRouter>
         <React.Fragment>
+            <Header />
             <Navigation />
             <Grid role="main">
                 <Switch>

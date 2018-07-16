@@ -7,6 +7,7 @@ export class News extends React.Component<{}, {}> {
             <div>
                 <h1>News</h1>
                 <h2>Coming soon!</h2>
+                    <img className="full-size-image" src="/images/mention-me2.jpg" alt="Jimmy &amp; the As" />
             </div>
         );
     }

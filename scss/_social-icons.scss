@@ -1,0 +1,14 @@
+$icon-size: 40px;
+
+.social-icons {
+    padding: 4px 12px 4px 4px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    height: $icon-size + 8px;
+    display: inline-block;
+
+    .icon {
+        padding-left: 8px;
+    }
+}

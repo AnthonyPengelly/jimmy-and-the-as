@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Carousel } from "react-bootstrap"
+import { SocialIcons } from "./social_icons";
 
 const CAROUSEL_IMAGES = [
     {name: "Trumpet", path: "/images/trumpet.jpg"},
@@ -18,7 +19,10 @@ export class Header extends React.Component<{}, {}> {
 
         return (
             <div className="header">
-                <h1 className="main-title">Jimmy &amp; the As</h1>
+                <div className="main-title-wrapper">
+                    <h1 className="main-title">Jimmy &amp; the As</h1>
+                    <SocialIcons />
+                </div>
                 <div className="image-carousel">
                     <Carousel controls={false}>
                         {carouselItems}

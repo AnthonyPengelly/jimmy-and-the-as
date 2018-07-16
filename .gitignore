@@ -87,4 +87,5 @@ typings/
 
 public/*
 !public/index.html
+!public/favicon*
 !public/images/

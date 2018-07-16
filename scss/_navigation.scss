@@ -1,0 +1,21 @@
+@import "colors";
+
+// Override bootstrap
+.navbar {
+    background-color: $theme-color-4;
+    border-color: $theme-color-4;
+    
+    .navbar-nav > li > a {
+        color: $theme-color-2;
+
+        &:focus, &:hover {
+            color: $theme-color-2;
+            background-color: $theme-color-4-hover;
+        }
+    }
+
+    .navbar-nav > .active > a {
+        color: $theme-color-4;
+        background-color: $theme-color-2;
+    }
+}

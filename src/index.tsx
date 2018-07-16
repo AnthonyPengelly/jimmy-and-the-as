@@ -15,7 +15,7 @@ ReactDOM.render((
         <React.Fragment>
             <Header />
             <Navigation />
-            <Grid role="main">
+            <Grid role="main" className="content">
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/about" component={About} />

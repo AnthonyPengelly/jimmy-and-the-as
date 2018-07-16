@@ -1,4 +1,5 @@
 @import "breakpoints";
+@import "colors";
 
 .header {
     position: relative;
@@ -9,7 +10,7 @@
     }
 
     .main-title {
-        color: white;
+        color: $theme-color-5;
         padding: 0;
         margin: 0;
     }

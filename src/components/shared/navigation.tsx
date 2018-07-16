@@ -6,7 +6,7 @@ import { Navbar, NavItem, Nav } from "react-bootstrap";
 export class Navigation extends React.Component<{}, {}> {
     render() {
         return (
-            <Navbar inverse collapseOnSelect>
+            <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/">Jimmy &amp; the As</Link>

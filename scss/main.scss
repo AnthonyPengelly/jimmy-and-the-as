@@ -1,5 +1,19 @@
+@import "colors";
 @import "header";
+@import "navigation";
 @import "social-icons";
+
+body {
+    background-color: $theme-color-1;
+    color: $theme-color-3;
+}
+
+.content {
+    background-color: $theme-color-2;
+    opacity: 0.8;
+    padding-top: 8px;
+    margin-bottom: 40px;
+}
 
 .full-size-image {
     width: 100%;

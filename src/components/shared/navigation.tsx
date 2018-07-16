@@ -8,9 +8,9 @@ export class Navigation extends React.Component<{}, {}> {
         return (
             <Navbar collapseOnSelect>
                 <Navbar.Header>
-                    <Navbar.Brand>
-                        <Link to="/">Jimmy &amp; the As</Link>
-                    </Navbar.Brand>
+                    <Link className="brand-link" to="/">
+                        <img src="/images/logo.png" alt="Jimmy &amp; the As" /
+                    ></Link>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>

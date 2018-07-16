@@ -1,16 +1,46 @@
 @import "colors";
 
+$mobile-brand-size: 75px;
+$tablet-brand-size: 100px;
+$desktop-brand-size: 150px;
+
+.brand-link {
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+
+    img {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+}
+
 // Override bootstrap
 .navbar {
+    position: relative;
     background-color: $theme-color-4;
     border: none;
 
-    .navbar-brand {
-        color: $theme-color-6;
+    .navbar-toggle {
+        border-color: $theme-color-6;
+
+        .icon-bar {
+            background-color: $theme-color-6;
+        }
 
         &:focus, &:hover {
-            color: $theme-color-6;
+            border-color: $theme-color-4;
+            background-color: $theme-color-6;
+
+            .icon-bar {
+                background-color: $theme-color-4;
+            }
         }
+    }
+
+    .navbar-collapse, .navbar-form {
+        border-color: $theme-color-4-hover;
     }
     
     .navbar-nav > li > a {
@@ -25,5 +55,43 @@
     .navbar-nav > .active > a {
         color: $theme-color-4;
         background-color: $theme-color-6;
+
+        &:focus, &:hover {
+            color: $theme-color-4;
+            background-color: $theme-color-6;
+        }
+    }
+}
+
+@include mobile {
+    .brand-link {
+        width: $mobile-brand-size;
+        height: $mobile-brand-size;
+        left: calc(50% - (#{$mobile-brand-size} / 2));
+    }
+
+    .navbar {
+        // We need to use the header as the relative position for mobile sizes
+        // so that the brand is not effected by opening the toggle.
+        // But the header doesn't have a height at other breakpoints
+        .navbar-header {
+            position: relative;
+        }
+    }
+}
+
+@include tablet {
+    .brand-link {
+        width: $tablet-brand-size;
+        height: $tablet-brand-size;
+        left: calc(50% - (#{$tablet-brand-size} / 2));
+    }
+}
+
+@include desktop {
+    .brand-link {
+        width: $desktop-brand-size;
+        height: $desktop-brand-size;
+        left: calc(50% - (#{$desktop-brand-size} / 2));
     }
 }

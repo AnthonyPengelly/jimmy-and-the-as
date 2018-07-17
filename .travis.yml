@@ -1,6 +1,6 @@
 install: true
 script:
-- "apt-get install -y awscli"
+- "sudo apt-get install -y awscli"
 - "./scripts/build.sh"
 - "aws s3 sync ./public s3://jimmyandtheas.co.uk --region eu-west-2 --delete"
 - "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*'"

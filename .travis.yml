@@ -1,7 +1,5 @@
-script: "./scripts/build.sh"
-deploy:
-- provider: s3
-  region: eu-west-2
-  bucket: jimmyandtheas.co.uk
-  local_dir: "./public"
-  skip_cleanup: true
+install: true
+script:
+- "./scripts/build.sh"
+- "aws s3 sync ./public s3://jimmyandtheas.co.uk --region eu-west-2 --delete"
+- "aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*'"

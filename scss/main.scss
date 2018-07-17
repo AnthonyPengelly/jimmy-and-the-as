@@ -4,15 +4,15 @@
 @import "social-icons";
 
 body {
-    background-color: $theme-color-1;
+    background-color: $body-color;
     // Stripes
-    background-image: linear-gradient(45deg, $theme-color-1, $theme-color-1-end);
-    color: $theme-color-3;
+    background-image: linear-gradient(45deg, $body-color, $body-color-alt, $body-color);
+    color: $main-text-color;
     font-family: "Rokkitt", serif;
 }
 
 .content {
-    background-color: $theme-color-2;
+    background-color: $background-color;
     padding-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 40px;

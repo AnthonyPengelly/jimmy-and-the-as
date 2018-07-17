@@ -1,8 +1,18 @@
-$theme-color-1: #1B264F; // Body
-$theme-color-1-end: #6699CC; // Body gradient
-$theme-color-2: #fAfAfA; // main background and nav text
-$theme-color-3: #020202; // Main text
-$theme-color-4: #FF8300; // Nav colour
-$theme-color-5: #FF8300; // Highlight colour
-$theme-color-6: #020202; // Nav Text
-$theme-color-4-hover: #FFAF00; // Nav background hover
+$theme-color-1: #020202;
+$theme-color-1-alt: #303030;
+$theme-color-2: #fAfAfA;
+$theme-color-3: #020202;
+$theme-color-4: #FF8300;
+$theme-color-4-hover: #D66F00;
+$theme-color-5: #FF8300;
+$theme-color-6: #020202;
+
+$body-color: $theme-color-1;
+$body-color-alt: $theme-color-1-alt;
+$background-color: $theme-color-2;
+$nav-text-color: $theme-color-2;
+$main-text-color: $theme-color-3;
+$nav-background-color: $theme-color-4;
+$nav-background-color-hover: $theme-color-4-hover;
+$title-color: $theme-color-5;
+$nav-text-color: $theme-color-6;

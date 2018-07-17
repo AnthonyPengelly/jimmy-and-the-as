@@ -19,46 +19,46 @@ $desktop-brand-size: 150px;
 // Override bootstrap
 .navbar {
     position: relative;
-    background-color: $theme-color-4;
+    background-color: $nav-background-color;
     border: none;
 
     .navbar-toggle {
-        border-color: $theme-color-6;
+        border-color: $nav-text-color;
 
         .icon-bar {
-            background-color: $theme-color-6;
+            background-color: $nav-text-color;
         }
 
         &:focus, &:hover {
-            border-color: $theme-color-4;
-            background-color: $theme-color-6;
+            border-color: $nav-background-color;
+            background-color: $nav-text-color;
 
             .icon-bar {
-                background-color: $theme-color-4;
+                background-color: $nav-background-color;
             }
         }
     }
 
     .navbar-collapse, .navbar-form {
-        border-color: $theme-color-4-hover;
+        border-color: $nav-background-color-hover;
     }
     
     .navbar-nav > li > a {
-        color: $theme-color-6;
+        color: $nav-text-color;
 
         &:focus, &:hover {
-            color: $theme-color-6;
-            background-color: $theme-color-4-hover;
+            color: $nav-text-color;
+            background-color: $nav-background-color-hover;
         }
     }
 
     .navbar-nav > .active > a {
-        color: $theme-color-4;
-        background-color: $theme-color-6;
+        color: $nav-background-color;
+        background-color: $nav-text-color;
 
         &:focus, &:hover {
-            color: $theme-color-4;
-            background-color: $theme-color-6;
+            color: $nav-background-color;
+            background-color: $nav-text-color;
         }
     }
 }

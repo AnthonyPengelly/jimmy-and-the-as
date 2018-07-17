@@ -5,7 +5,7 @@ import { SocialIcons } from "./social_icons";
 const CAROUSEL_IMAGES = [
     {name: "Trumpet", path: "/images/trumpet.jpg"},
     {name: "Mention Me 1", path: "/images/mention-me1.jpg"},
-    {name: "Band", path: "/images/band-cropped.jpg"},
+    {name: "Band", path: "/images/band.jpg"},
     {name: "Mention Me 2", path: "/images/mention-me2.jpg"},
 ];
 

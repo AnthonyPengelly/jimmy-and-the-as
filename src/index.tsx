@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Grid } from "react-bootstrap";
 
 import { Home } from "./components/home/home";
@@ -21,6 +21,7 @@ ReactDOM.render((
                     <Route exact path="/about" component={About} />
                     <Route exact path="/news" component={News} />
                     <Route exact path="/contact" component={Contact} />
+                    <Route render={() => <Redirect to="/" />} />
                 </Switch>
             </Grid>
         </React.Fragment>

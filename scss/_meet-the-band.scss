@@ -1,0 +1,14 @@
+.meet-the-band {
+    // Overriding bootstrap
+    .media:not(:last-child) {
+        border-bottom: 1px solid $border-color;
+    }
+
+    @include mobile {
+        // Put the image above the text at low breakpoints
+        .media-left {
+            display: block;
+            padding-bottom: 12px;
+        }
+    }
+}

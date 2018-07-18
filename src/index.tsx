@@ -4,12 +4,12 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Grid } from "react-bootstrap";
 
 import { Home } from "./components/home/home";
-import { MeetTheBand } from "./components/meetTheBand/meetTheBand";
+import { MeetTheBand } from "./components/meet_the_band/meet_the_band";
 import { News } from "./components/news/news";
 import { Contact } from "./components/contact/contact";
 import { Navigation } from "./components/shared/navigation";
 import { Header } from "./components/shared/header";
-import { SongList } from "./components/songList/songList";
+import { SongList } from "./components/song_list/song_list";
 import { Gallery } from "./components/gallery/gallery";
 
 ReactDOM.render((

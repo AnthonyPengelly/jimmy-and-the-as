@@ -17,9 +17,7 @@ export class News extends React.Component<{}, {}> {
                     <Media.Heading componentClass="h3">
                         {newsItem.title}
                     </Media.Heading>
-                    <p>
-                        {newsItem.content}
-                    </p>
+                    {newsItem.content}
                 </Media.Body>
             </Media>
         ));

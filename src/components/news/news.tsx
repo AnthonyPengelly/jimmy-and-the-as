@@ -13,10 +13,10 @@ export class News extends React.Component<{}, {}> {
                     <img src={newsItem.imagePath} alt={newsItem.title} width={THUMBNAIL_SIZE} />
                 </Media.Left>
                 <Media.Body>
+                    <p>{newsItem.date.format("DD/MM/YY")}</p>
                     <Media.Heading componentClass="h3">
                         {newsItem.title}
                     </Media.Heading>
-                    <p>{newsItem.date.toDateString()}</p>
                     <p>
                         {newsItem.content}
                     </p>

@@ -1,10 +1,11 @@
 import * as React from "react";
+import * as moment from "moment";
 
 export interface NewsItem {
     title: string;
     content: JSX.Element;
     imagePath: string;
-    date: Date;
+    date: moment.Moment;
 }
 
 const news: NewsItem[] = [
@@ -19,7 +20,7 @@ const news: NewsItem[] = [
             </p>
         ,
         imagePath: "/images/rockstock.jpg",
-        date: new Date(2018, 10, 26)
+        date: moment("26/10/2018", "DD/MM/YYYY")
     },
     {
         title: "Mention Me summer party",
@@ -33,7 +34,7 @@ const news: NewsItem[] = [
             </p>
         ,
         imagePath: "/images/mention-me1.jpg",
-        date: new Date(2018, 7, 7)
+        date: moment("07/07/2018", "DD/MM/YYYY")
     },
     {
         title: "Call us Jimmy & the As",
@@ -46,7 +47,7 @@ const news: NewsItem[] = [
             </p>
         ,
         imagePath: "/images/logo.png",
-        date: new Date(2018, 7, 7)
+        date: moment("07/07/2018", "DD/MM/YYYY")
     },
     {
         title: "The band forms!",
@@ -61,7 +62,7 @@ const news: NewsItem[] = [
             </p>
         ,
         imagePath: "/images/trumpet.jpg",
-        date: new Date(2018, 4, 9)
+        date: moment("09/04/2018", "DD/MM/YYYY")
     }
 ];
 

@@ -11,7 +11,7 @@ export class Home extends React.Component<{}, {}> {
                     <Col xs={12} sm={8}>
                         <h2>Jimmy &amp; the As</h2>
                         <p>
-                            We're a great band who can provide an electric or acoustic set for your event.
+                            We're a lively function band who can provide an electric or acoustic set for your event.
                             <Link to="/contact">Contact us for more details.</Link>
                         </p>
                         <img className="full-size-image" src="/images/mention-me1.jpg" alt="Jimmy &amp; the As" />

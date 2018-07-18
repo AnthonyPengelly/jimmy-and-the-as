@@ -8,7 +8,7 @@ export class Home extends React.Component<{}, {}> {
         return (
             <div className="news">
                 <Row>
-                    <Col xs={12} md={8}>
+                    <Col xs={12} sm={8}>
                         <h2>Jimmy &amp; the As</h2>
                         <p>
                             We're a great band who can provide an electric or acoustic set for your event.
@@ -16,7 +16,7 @@ export class Home extends React.Component<{}, {}> {
                         </p>
                         <img className="full-size-image" src="/images/mention-me1.jpg" alt="Jimmy &amp; the As" />
                     </Col>
-                    <Col xs={12} md={4}>
+                    <Col xs={12} sm={4}>
                         <Sidebar />
                     </Col>
                 </Row>

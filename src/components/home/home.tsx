@@ -9,7 +9,7 @@ export class Home extends React.Component<{}, {}> {
             <div className="news">
                 <Row>
                     <Col xs={12} md={8}>
-                        <h2>Welcome to Jimmy &amp; the As</h2>
+                        <h2>Jimmy &amp; the As</h2>
                         <p>
                             We're a great band who can provide an electric or acoustic set for your event.
                             <Link to="/contact">Contact us for more details.</Link>

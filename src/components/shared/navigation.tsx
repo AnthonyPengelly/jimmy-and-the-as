@@ -9,8 +9,8 @@ export class Navigation extends React.Component<{}, {}> {
             <Navbar collapseOnSelect>
                 <Navbar.Header>
                     <Link className="brand-link" to="/">
-                        <img src="/images/logo.png" alt="Jimmy &amp; the As" /
-                    ></Link>
+                        <img src="/images/logo.png" alt="Jimmy &amp; the As" />
+                    </Link>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
@@ -20,9 +20,9 @@ export class Navigation extends React.Component<{}, {}> {
                                 Home
                             </NavItem>
                         </LinkContainer>
-                        <LinkContainer to="/about">
+                        <LinkContainer to="/meet-the-band">
                             <NavItem>
-                                About
+                                Meet The Band
                             </NavItem>
                         </LinkContainer>
                         <LinkContainer to="/news">
@@ -32,6 +32,16 @@ export class Navigation extends React.Component<{}, {}> {
                         </LinkContainer>
                     </Nav>
                     <Nav pullRight>
+                        <LinkContainer to="/song-list">
+                            <NavItem>
+                                Song List
+                            </NavItem>
+                        </LinkContainer>
+                        <LinkContainer to="/gallery">
+                            <NavItem>
+                                Gallery
+                            </NavItem>
+                        </LinkContainer>
                         <LinkContainer to="/contact">
                             <NavItem>
                                 Contact

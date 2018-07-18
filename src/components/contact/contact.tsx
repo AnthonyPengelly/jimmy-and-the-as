@@ -15,7 +15,7 @@ export class Contact extends React.Component<{}, {}> {
         return (
             <Row>
                 <Col xs={12} md={4}>
-                    <h1>Contact</h1>
+                    <h2>Contact</h2>
                     <p>Get in touch to find out more or book us for your event!</p>
                     <p><a href={"mailto:" + Config.email}>
                         <Mail size={ICON_SIZE} color="#D34836" /> {Config.email}

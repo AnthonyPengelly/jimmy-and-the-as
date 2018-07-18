@@ -1,7 +1,9 @@
 @import "colors";
+@import "breakpoints";
 @import "header";
 @import "navigation";
 @import "social-icons";
+@import "news";
 
 body {
     background-color: $body-color;

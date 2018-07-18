@@ -1,13 +1,37 @@
 import * as React from "react";
-import { Link } from "react-router-dom"
+import { Row, Col, Media } from "react-bootstrap";
+
+import news from "../../assets/news";
+
+const THUMBNAIL_SIZE = 128;
 
 export class News extends React.Component<{}, {}> {
     render() {
+        const newsItems = news.map((newsItem, index) => (
+            <Media key={index}>
+                <Media.Left>
+                    <img src={newsItem.imagePath} alt={newsItem.title} width={THUMBNAIL_SIZE} />
+                </Media.Left>
+                <Media.Body>
+                    <Media.Heading componentClass="h3">
+                        {newsItem.title}
+                    </Media.Heading>
+                    <p>{newsItem.date.toDateString()}</p>
+                    <p>
+                        {newsItem.content}
+                    </p>
+                </Media.Body>
+            </Media>
+        ));
+
         return (
-            <div>
-                <h1>News</h1>
-                <h2>Coming soon!</h2>
-                    <img className="full-size-image" src="/images/mention-me2.jpg" alt="Jimmy &amp; the As" />
+            <div className="news">
+                <Row>
+                    <Col xs={12}>
+                        <h2>News</h2>
+                        {newsItems}
+                    </Col>
+                </Row>
             </div>
         );
     }

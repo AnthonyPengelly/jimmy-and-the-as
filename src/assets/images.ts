@@ -36,6 +36,12 @@ const images: Image[] = [
         isInCarousel: false,
         isInGallery: false
     },
+    {
+        name: "Jimmy & the As",
+        path: "/images/logo.png",
+        isInCarousel: false,
+        isInGallery: false
+    },
 ];
 
 export default images;

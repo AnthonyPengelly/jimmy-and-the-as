@@ -1,17 +1,11 @@
 import * as React from "react";
 import { Carousel } from "react-bootstrap"
 import { SocialIcons } from "./social_icons";
-
-const CAROUSEL_IMAGES = [
-    {name: "Trumpet", path: "/images/trumpet.jpg"},
-    {name: "Mention Me 1", path: "/images/mention-me1.jpg"},
-    {name: "Band", path: "/images/band.jpg"},
-    {name: "Mention Me 2", path: "/images/mention-me2.jpg"},
-];
+import images from "../../assets/images";
 
 export class Header extends React.Component<{}, {}> {
     render() {
-        const carouselItems = CAROUSEL_IMAGES.map((image, index) => (
+        const carouselItems = images.filter(image => image.isInCarousel).map((image, index) => (
             <Carousel.Item key={index}>
                 <div className="carousel-image" style={{backgroundImage:`url(${image.path})`}}></div>
             </Carousel.Item>

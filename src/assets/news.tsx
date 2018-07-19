@@ -29,7 +29,7 @@ const news: NewsItem[] = [
                 We performed our debut gig as Jimmy &amp; the As at the Mention Me summer party.
                 <br /><br />
                 We played two 45 minute acoustic sets starting after England's victory over Sweden in the quarter
-                finals, so naturally we had to play "Three Lions"! The weather was on our side and a great day was
+                finals, so naturally we had to play "Three Lions". The weather was on our side and a great day was
                 had by all. The band topped it off with a night out in Guildford!
             </p>
         ,
@@ -40,10 +40,14 @@ const news: NewsItem[] = [
         title: "Call us Jimmy & the As",
         content: 
             <p>
-                We decided on our name! We were on our way to our first gig, so it was about time!
+                We decided on our name! We were on our way to our first gig, so it was about time...
                 <br /><br />
                 Some claim that Hal made the deciding vote from our shortlist, but I like to think it was the
                 taxi driver who made the final call.
+                <br /><br />
+                Jimmy Allen's (A.K.A. Jimmy A's) was the name of one of our favourite bars in Durham. Which itself
+                was named after the ghost of a musician who was said to haunt it. So, contrary to what you might have expected,
+                no one in the band is called Jimmy.
             </p>
         ,
         imagePath: "/images/logo.png",

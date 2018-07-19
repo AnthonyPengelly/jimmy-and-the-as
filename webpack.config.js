@@ -31,7 +31,7 @@ module.exports = {
             { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
             
             { // sass / scss loader for webpack
-                test: /\.(sass|scss)$/,
+                test: /\.(sass|scss|css)$/,
                 use: [
                     MiniCssExtractPlugin.loader,
                     'css-loader',

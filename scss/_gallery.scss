@@ -1,5 +1,36 @@
 .gallery {
-    .carousel-image {
+    .gallery-image {
         width: 100%;
+        cursor: pointer;
+    }
+
+    @include mobile {
+        .gallery-grid {
+            @include is-grid($margin-compensation: 8px);
+        }
+
+        .gallery-image-wrapper {
+            @include is-grid-item($number-of-items: 2, $margin: 8px);
+        }
+    }
+
+    @include tablet {
+        .gallery-grid {
+            @include is-grid($margin-compensation: 12px);
+        }
+
+        .gallery-image-wrapper {
+            @include is-grid-item($number-of-items: 3, $margin: 12px);
+        }
+    }
+
+    @include desktop {
+        .gallery-grid {
+            @include is-grid($margin-compensation: 16px);
+        }
+
+        .gallery-image-wrapper {
+            @include is-grid-item($number-of-items: 4, $margin: 16px);
+        }
     }
 }

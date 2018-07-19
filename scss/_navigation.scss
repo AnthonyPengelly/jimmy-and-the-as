@@ -39,6 +39,16 @@ $desktop-brand-size: 150px;
 
     .navbar-collapse, .navbar-form {
         border-color: $nav-background-color-hover;
+
+        .nav {
+            &:first-child {
+                margin-bottom: 0;
+            }
+
+            &:last-child {
+                margin-top: 0;
+            }
+        }
     }
     
     .navbar-nav > li > a {

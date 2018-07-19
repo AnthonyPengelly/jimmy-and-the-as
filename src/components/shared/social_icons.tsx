@@ -5,7 +5,7 @@ import Facebook from "react-icons/fa/facebook-square";
 import Twitter from "react-icons/fa/twitter-square";
 import Instagram from "react-icons/fa/instagram";
 
-const ICON_SIZE = 40;
+const ICON_SIZE = 32;
 
 export class SocialIcons extends React.Component<{}, {}> {
     render() {

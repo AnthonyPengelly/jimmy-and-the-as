@@ -14,7 +14,7 @@ export class Header extends React.Component<{}, {}> {
         return (
             <div className="header">
                 <div className="main-title-wrapper">
-                    <h1 className="main-title">Jimmy &amp; the As</h1>
+                    <h1 className="main-title">Jimmy<br />&amp;<br/>the As</h1>
                     <SocialIcons />
                 </div>
                 <div className="image-carousel">

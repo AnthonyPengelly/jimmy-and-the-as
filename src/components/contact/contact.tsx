@@ -21,7 +21,7 @@ export class Contact extends React.Component<{}, {}> {
                         <Mail size={ICON_SIZE} color="#D34836" /> {Config.email}
                     </a></p>
                     <p><a href={"tel:" + Config.phone}>
-                        <Phone size={ICON_SIZE} /> {Config.phone}
+                        <Phone size={ICON_SIZE} color="#00FF00" /> {Config.phone}
                     </a></p>
                     <p><a href={Config.facebook} target="_blank">
                         <Facebook size={ICON_SIZE} color="#3B5998" /> {Config.facebook}

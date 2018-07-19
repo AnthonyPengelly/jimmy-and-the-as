@@ -1,10 +1,15 @@
-const path = require('path');
+const path = require("path");
+const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-    entry: ["./src/index.tsx", "./scss/main.scss"],
+    entry: {
+        app: ["./src/index.tsx", "./scss/main.scss"],
+        vendor: ["react", "moment", "react-router", "react-router-dom", "react-bootstrap"]
+    },
     output: {
-        filename: "bundle.js",
+        filename: "[name].bundle.js",
         path: __dirname + "/public"
     },
 
@@ -20,9 +25,21 @@ module.exports = {
         }
     },
 
+    optimization: {
+        splitChunks: {
+            chunks: "initial",
+        },
+    },
+
     resolve: {
         // Add '.ts' and '.tsx' as resolvable extensions.
         extensions: [".ts", ".tsx", ".js", ".json"]
+    },
+
+    optimization: {
+        minimizer: [
+            new UglifyJsPlugin()
+        ]
     },
 
     module: {
@@ -55,6 +72,12 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "[name].css",
             chunkFilename: "[id].css"
-        })
+        }),
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify('production')
+            }
+        }),
+        new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
     ],
 };

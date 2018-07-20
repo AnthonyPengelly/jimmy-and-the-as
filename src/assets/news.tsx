@@ -45,7 +45,7 @@ const news: NewsItem[] = [
                 Some claim that Hal made the deciding vote from our shortlist, but I like to think it was the
                 taxi driver who made the final call.
                 <br /><br />
-                Jimmy Allen's (A.K.A. Jimmy A's) was the name of one of our favourite bars in Durham. Which itself
+                Jimmy Allens (A.K.A. Jimmy As) was the name of one of our favourite bars in Durham. Which itself
                 was named after the ghost of a musician who was said to haunt it. So, contrary to what you might have expected,
                 no one in the band is called Jimmy.
             </p>

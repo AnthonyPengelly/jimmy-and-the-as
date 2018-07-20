@@ -19,7 +19,7 @@ const news: NewsItem[] = [
                 Come along and support us alongside some fantastic bands!
             </p>
         ,
-        imagePath: "/images/rockstock.jpg",
+        imagePath: "/images/rockstock-thumbnail.jpg",
         date: moment("26/10/2018", "DD/MM/YYYY")
     },
     {
@@ -33,7 +33,7 @@ const news: NewsItem[] = [
                 had by all. The band topped it off with a night out in Guildford!
             </p>
         ,
-        imagePath: "/images/mention-me1.jpg",
+        imagePath: "/images/mention-me1-thumbnail.jpg",
         date: moment("07/07/2018", "DD/MM/YYYY")
     },
     {
@@ -65,7 +65,7 @@ const news: NewsItem[] = [
                 call ourselves?
             </p>
         ,
-        imagePath: "/images/trumpet.jpg",
+        imagePath: "/images/trumpet-thumbnail.jpg",
         date: moment("09/04/2018", "DD/MM/YYYY")
     }
 ];

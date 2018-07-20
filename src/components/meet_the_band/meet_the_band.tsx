@@ -3,7 +3,7 @@ import { Media } from "react-bootstrap";
 
 import bios from "../../assets/bios";
 
-const THUMBNAIL_SIZE = 128;
+const THUMBNAIL_SIZE = 280;
 
 export class MeetTheBand extends React.Component<{}, {}> {
     render() {

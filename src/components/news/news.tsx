@@ -3,7 +3,7 @@ import { Row, Col, Media } from "react-bootstrap";
 
 import news from "../../assets/news";
 
-const THUMBNAIL_SIZE = 128;
+const THUMBNAIL_SIZE = 180;
 
 export class News extends React.Component<{}, {}> {
     render() {

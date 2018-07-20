@@ -9,7 +9,7 @@ export interface Bio {
 const bios: Bio[] = [
     {
         name: "Ant",
-        imagePath: "/images/rockstock.jpg",
+        imagePath: "/images/rockstock-thumbnail.jpg",
         content:
             <p>
                 Ant, AKA Jimmy, is the lead singer.
@@ -17,7 +17,7 @@ const bios: Bio[] = [
     },
     {
         name: "Mike",
-        imagePath: "/images/trumpet.jpg",
+        imagePath: "/images/trumpet-thumbnail.jpg",
         content:
             <p>
                 Mike plays the trumpet.
@@ -25,7 +25,7 @@ const bios: Bio[] = [
     },
     {
         name: "Robbie",
-        imagePath: "/images/mention-me2.jpg",
+        imagePath: "/images/mention-me2-thumbnail.jpg",
         content:
             <p>
                 Robbie plays the guitar.
@@ -33,7 +33,7 @@ const bios: Bio[] = [
     },
     {
         name: "Hal",
-        imagePath: "/images/mention-me1.jpg",
+        imagePath: "/images/mention-me1-thumbnail.jpg",
         content:
             <p>
                 Hal plays the saxophone.
@@ -41,7 +41,7 @@ const bios: Bio[] = [
     },
     {
         name: "Sion",
-        imagePath: "/images/band.jpg",
+        imagePath: "/images/band-thumbnail.jpg",
         content:
             <p>
                 Sion plays the cajon.

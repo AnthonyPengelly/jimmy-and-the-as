@@ -2,7 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Grid } from "react-bootstrap";
+import AudioPlayer = require("react-responsive-audio-player");
 
+import playlist from "./assets/audio";
 import { Home } from "./components/home/home";
 import { MeetTheBand } from "./components/meet_the_band/meet_the_band";
 import { News } from "./components/news/news";
@@ -28,6 +30,7 @@ ReactDOM.render((
                     <Route render={() => <Redirect to="/" />} />
                 </Switch>
             </Grid>
+            <AudioPlayer playlist={playlist} gapLengthInSeconds={2} />
         </React.Fragment>
     </BrowserRouter>
 ), document.getElementById("react-app"));

@@ -1,0 +1,35 @@
+$audio-player-button-size: 16px;
+
+$audio_player_btn_margin: 2px;
+$audio_player_btn_padding: 4px;
+
+$audio_player_spacer_width: 10px;
+
+$audio_player_info_font_size: inherit;
+$audio_player_time_font_size: inherit;
+$audio_player_time_margin: 10px;
+
+$audio_player_marquee_width: calc(100% - 120px);
+
+$audio_player_play_btn_inner_height: $audio-player-button-size;
+$audio_player_play_btn_inner_width: $audio-player-button-size;
+
+@import "~react-responsive-audio-player/src/index";
+
+
+.audio_player {
+    position: fixed;
+    bottom: 0;
+
+    .play_pause_button .triangle_1, .play_pause_button .triangle_2 {
+        border-right-width: $audio-player-button-size;
+        border-top-width: $audio-player-button-size / 2;
+        border-bottom-width: $audio-player-button-size / 2;
+    }
+
+    .skip_button .right_facing_triangle {
+        border-left-width: $audio-player-button-size / 2;
+        border-top-width: $audio-player-button-size / 2;
+        border-bottom-width: $audio-player-button-size / 2;
+    }
+}

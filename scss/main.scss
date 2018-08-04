@@ -7,6 +7,7 @@
 @import "news";
 @import "meet-the-band";
 @import "gallery";
+@import "audio-player";
 
 body {
     background-color: $body-color;
@@ -15,6 +16,8 @@ body {
     color: $main-text-color;
     font-family: "Rokkitt", serif;
     font-size: 16px;
+    // For the audio player
+    padding-bottom: 50px;
 }
 
 .content {

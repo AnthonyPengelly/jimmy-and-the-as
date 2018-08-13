@@ -15,8 +15,8 @@ export class SongList extends React.Component<{}, {}> {
                 <Col xs={12} sm={6}>
                     <ul>
                         <li>Happy - Pharrell Williams</li>
-                        <li>Umbrella - Rihanna</li>
-                        <li>Brown Eyed Girl - Van Morrison</li>
+                        <li>Umbrella - Rihanna (<a href="/audio/Umbrella.mp3" download={true}>Download</a>)</li>
+                        <li>Brown Eyed Girl - Van Morrison (<a href="/audio/Brown Eyed Girl.mp3" download={true}>Download</a>)</li>
                         <li>King/Desire - Years &amp; Years</li>
                         <li>Please Don't Stop the Music - Rihanna</li>
                         <li>Under the Sea - Disney</li>
@@ -32,10 +32,11 @@ export class SongList extends React.Component<{}, {}> {
                     <ul>
                         <li>Take on Me - A-ha</li>
                         <li>No Diggity - Blackstreet</li>
-                        <li>Toxic/Pump It - Britney Spears/The Black Eyed Peas</li>
+                        <li>Toxic/Pump It - Britney Spears/The Black Eyed Peas (<a href="/audio/Toxic.mp3" download={true}>Download</a>)</li>
                         <li>Can't Hold Us - Macklemore/Ryan Lewis</li>
                         <li>Cry Me a River - Justin Timberlake</li>
                         <li>Pencil Full of Lead - Paolo Nutini</li>
+                        <li>Problem - Ariana Grande (<a href="/audio/Problem.mp3" download={true}>Download</a>)</li>
                         <li>Come on Eileen - Dexys Midnight Runners</li>
                         <li>I Will Wait - Mumford &amp; Sons</li>
                         <li>Shake a Tailfeather/Twist &amp; Shout/La Bamba - The Blues Brothers/The Beatles/Los Lobos</li>

@@ -32,7 +32,7 @@ export class SongList extends React.Component<{}, {}> {
                     <ul>
                         <li>Take on Me - A-ha</li>
                         <li>No Diggity - Blackstreet</li>
-                        <li>Toxic/Pump It - Britney Spears/The Black Eyed Peas (<a href="/audio/Toxic.mp3" download={true}>Download</a>)</li>
+                        <li>Toxic/Pump It - Britney Spears/The Black Eyed Peas (<a href="/audio/toxic.mp3" download={true}>Download</a>)</li>
                         <li>Can't Hold Us - Macklemore/Ryan Lewis</li>
                         <li>Cry Me a River - Justin Timberlake</li>
                         <li>Pencil Full of Lead - Paolo Nutini</li>

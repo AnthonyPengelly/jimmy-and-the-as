@@ -20,7 +20,11 @@ const bios: Bio[] = [
         imagePath: "/images/trumpet-thumbnail.jpg",
         content:
             <p>
-                Mike plays the trumpet.
+                Mike plays trumpet and sings backing vocals. He is a PhD student at University College London (UCL) and enjoys
+                playing music in his spare time. Apart from playing in Jimmy &amp; The As, his other musical passion is playing
+                classical piano. He is a member of the UCL chamber music club and performs in their concerts.
+                <br /><br />
+                Favourite song to play with Jimmy &amp; The As: Pencil Full of Lead
             </p>
     },
     {

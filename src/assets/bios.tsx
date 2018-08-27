@@ -12,8 +12,8 @@ const bios: Bio[] = [
         imagePath: "/images/rockstock-thumbnail.jpg",
         content:
             <p>
-                Ant is the lead singer of Jimmy &amp; the As. He is a software developer in North London. Ant brings huge amounts of energy
-                to the band, and is always keeping the audience on their feet. He also likes to throw in the odd harmonica solo!
+                Ant is the lead singer of Jimmy &amp; the As. He brings huge amounts of energy to the band,
+                and is always keeping the audience on their feet. He also likes to throw in the odd harmonica solo!
                 <br /><br />
                 Favourite song to play with Jimmy &amp; The As: Come on Eileen
             </p>
@@ -23,10 +23,8 @@ const bios: Bio[] = [
         imagePath: "/images/trumpet-thumbnail.jpg",
         content:
             <p>
-                Mike plays trumpet and sings backing vocals. He is a PhD student at University College London (UCL) and enjoys
-                playing music in his spare time. When he's not providing precise harmonies and soaring trumpet solos for Jimmy &amp; The As,
-                his other musical passion is playing classical piano. He is a member of the UCL chamber music club and performs in
-                their concerts.
+                Mike plays trumpet and sings backing vocals. When he's not providing precise harmonies and soaring trumpet solos
+                for Jimmy &amp; The As, his other musical passion is playing classical piano.
                 <br /><br />
                 Favourite song to play with Jimmy &amp; The As: Pencil Full of Lead
             </p>
@@ -37,7 +35,8 @@ const bios: Bio[] = [
         content:
             <p>
                 Robbie is the band's guitarist. He is an expert at classical guitar, and has brought this technical skill
-                into his playing with Jimmy &amp; the As. Robbie is also a PhD student at UCL.
+                into his playing with Jimmy &amp; the As. Alongside Sion, he provides a solid rhythm section, but is always ready
+                to step into the limelight when called upon!
                 <br /><br />
                 Favourite song to play with Jimmy &amp; The As: Toxic
             </p>

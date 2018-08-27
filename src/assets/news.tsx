@@ -23,6 +23,17 @@ const news: NewsItem[] = [
         date: moment("26/10/2018", "DD/MM/YYYY")
     },
     {
+        title: "Recordings are up!",
+        content:
+            <p>
+                After a fun weekend in the studio, we have produced some recordings of the band! Have a listen on the website's media
+                player.
+            </p>
+        ,
+        imagePath: "/images/recording.jpg",
+        date: moment("27/08/2018", "DD/MM/YYYY")
+    },
+    {
         title: "Mention Me summer party",
         content: 
             <p>

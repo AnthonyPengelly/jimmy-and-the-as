@@ -12,7 +12,10 @@ const bios: Bio[] = [
         imagePath: "/images/rockstock-thumbnail.jpg",
         content:
             <p>
-                Ant, AKA Jimmy, is the lead singer.
+                Ant is the lead singer of Jimmy &amp; the As. He is a software developer in North London. Ant brings huge amounts of energy
+                to the band, and is always keeping the audience on their feet. He also likes to throw in the odd harmonica solo!
+                <br /><br />
+                Favourite song to play with Jimmy &amp; The As: Come on Eileen
             </p>
     },
     {
@@ -21,8 +24,9 @@ const bios: Bio[] = [
         content:
             <p>
                 Mike plays trumpet and sings backing vocals. He is a PhD student at University College London (UCL) and enjoys
-                playing music in his spare time. Apart from playing in Jimmy &amp; The As, his other musical passion is playing
-                classical piano. He is a member of the UCL chamber music club and performs in their concerts.
+                playing music in his spare time. When he's not providing precise harmonies and soaring trumpet solos for Jimmy &amp; The As,
+                his other musical passion is playing classical piano. He is a member of the UCL chamber music club and performs in
+                their concerts.
                 <br /><br />
                 Favourite song to play with Jimmy &amp; The As: Pencil Full of Lead
             </p>
@@ -32,7 +36,10 @@ const bios: Bio[] = [
         imagePath: "/images/mention-me2-thumbnail.jpg",
         content:
             <p>
-                Robbie plays the guitar.
+                Robbie is the band's guitarist. He is an expert at classical guitar, and has brought this technical skill
+                into his playing with Jimmy &amp; the As. Robbie is also a PhD student at UCL.
+                <br /><br />
+                Favourite song to play with Jimmy &amp; The As: Toxic
             </p>
     },
     {
@@ -40,7 +47,10 @@ const bios: Bio[] = [
         imagePath: "/images/mention-me1-thumbnail.jpg",
         content:
             <p>
-                Hal plays the saxophone.
+                Hal brings his unique brand of saxophone to the band. He is always ready to whip out an outrageous solo, it's
+                getting him to stop which is the challenge. Both on and off-stage, Hal is always up for starting off the dancing!
+                <br /><br />
+                Favourite song to play with Jimmy &amp; The As: Can't Hold Us
             </p>
     },
     {
@@ -48,7 +58,10 @@ const bios: Bio[] = [
         imagePath: "/images/band-thumbnail.jpg",
         content:
             <p>
-                Sion plays the cajon.
+                Sion is at the heart of the band on his cajon (drum box). Somehow managing to keep everything tight while adding
+                excellent backing vocals. Apart from drums, Sion is also a very impressive trumpet player!
+                <br /><br />
+                Favourite song to play with Jimmy &amp; The As: Umbrella
             </p>
     },
 ];

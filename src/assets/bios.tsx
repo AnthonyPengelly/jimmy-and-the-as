@@ -9,7 +9,7 @@ export interface Bio {
 const bios: Bio[] = [
     {
         name: "Ant",
-        imagePath: "/images/rockstock-thumbnail.jpg",
+        imagePath: "/images/mansfield/ant-thumbnail.jpg",
         content:
             <p>
                 Ant is the lead singer of Jimmy &amp; the As. He brings huge amounts of energy to the band,
@@ -31,7 +31,7 @@ const bios: Bio[] = [
     },
     {
         name: "Robbie",
-        imagePath: "/images/mention-me2-thumbnail.jpg",
+        imagePath: "/images/mansfield/robbie-thumbnail.jpg",
         content:
             <p>
                 Robbie is the band's guitarist. He is an expert at classical guitar, and has brought this technical skill
@@ -43,7 +43,7 @@ const bios: Bio[] = [
     },
     {
         name: "Hal",
-        imagePath: "/images/mention-me1-thumbnail.jpg",
+        imagePath: "/images/mansfield/hal-thumbnail.jpg",
         content:
             <p>
                 Hal brings his unique brand of saxophone to the band. He is always ready to whip out an outrageous solo, it's
@@ -54,7 +54,7 @@ const bios: Bio[] = [
     },
     {
         name: "Sion",
-        imagePath: "/images/band-thumbnail.jpg",
+        imagePath: "/images/mansfield/sion-thumbnail.jpg",
         content:
             <p>
                 Sion is at the heart of the band on his cajon (drum box). Somehow managing to keep everything tight while adding

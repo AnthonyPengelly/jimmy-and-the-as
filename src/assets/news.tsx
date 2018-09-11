@@ -23,6 +23,20 @@ const news: NewsItem[] = [
         date: moment("26/10/2018", "DD/MM/YYYY")
     },
     {
+        title: "Mansfield Neighbourhood Street Party",
+        content:
+            <p>
+                We had a great time playing at the Mansfield Neighbourhood Street Party at the weekend.
+                After grabbing a burger from the BBQ, we got the crowd dancing with an upbeat set. We
+                even played for the fancy dress parade!
+                <br/><br/>
+                Check out some of our photos on the gallery. Thanks for having us Mansfield!
+            </p>
+        ,
+        imagePath: "/images/mansfield/mansfield-1-thumbnail.jpg",
+        date: moment("09/09/2018", "DD/MM/YYYY")
+    },
+    {
         title: "Recordings are up!",
         content:
             <p>

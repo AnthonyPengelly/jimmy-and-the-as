@@ -1,36 +1,42 @@
 .gallery {
-    .gallery-image {
+    .aspect-ratio-4-3 {
         width: 100%;
+        padding-bottom: 75%;
+    }
+
+    .gallery-image {
+        background-position: center;
+        background-size: cover;
         cursor: pointer;
     }
 
     @include mobile {
         .gallery-grid {
-            @include is-grid($margin-compensation: 8px);
+            @include is-grid($margin-compensation: 4px);
         }
 
         .gallery-image-wrapper {
-            @include is-grid-item($number-of-items: 2, $margin: 8px);
+            @include is-grid-item($number-of-items: 2, $margin: 4px);
         }
     }
 
     @include tablet {
         .gallery-grid {
-            @include is-grid($margin-compensation: 12px);
+            @include is-grid($margin-compensation: 6px);
         }
 
         .gallery-image-wrapper {
-            @include is-grid-item($number-of-items: 3, $margin: 12px);
+            @include is-grid-item($number-of-items: 3, $margin: 6px);
         }
     }
 
     @include desktop {
         .gallery-grid {
-            @include is-grid($margin-compensation: 16px);
+            @include is-grid($margin-compensation: 8px);
         }
 
         .gallery-image-wrapper {
-            @include is-grid-item($number-of-items: 4, $margin: 16px);
+            @include is-grid-item($number-of-items: 4, $margin: 8px);
         }
     }
 }

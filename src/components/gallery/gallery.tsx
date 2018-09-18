@@ -21,7 +21,11 @@ export class Gallery extends React.Component<{}, GalleryState> {
         const galleryImages = images.filter(image => image.isInGallery);
         const galleryImageComponents = galleryImages.map((image, index) => (
             <div className="gallery-image-wrapper" key={index}>
-                <img className="gallery-image" src={image.thumbnailPath} alt={image.name} onClick={() => this.openImage(index)} />
+                <div
+                    className="aspect-ratio-4-3 gallery-image"
+                    onClick={() => this.openImage(index)}
+                    style={{backgroundImage: `url(${image.thumbnailPath})` }}>
+                </div>
             </div>
         ));
 

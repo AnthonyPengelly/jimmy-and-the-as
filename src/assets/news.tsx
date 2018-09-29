@@ -23,6 +23,17 @@ const news: NewsItem[] = [
         date: moment("26/10/2018", "DD/MM/YYYY")
     },
     {
+        title: "Parliament Hill Street Party",
+        content: 
+            <p>
+                Great fun playing Parliament Hill Street Party this afternoon. The sun came out just in time for Hal’s
+                outrageous sax solo in our funky take on Ariana Grande’s "Problem".
+            </p>
+        ,
+        imagePath: "/images/parliament-hill-thumbnail.jpg",
+        date: moment("23/09/2018", "DD/MM/YYYY")
+    },
+    {
         title: "Mansfield Neighbourhood Street Party",
         content:
             <p>

@@ -8,6 +8,13 @@ export interface Image {
 
 const images: Image[] = [
     {
+        name: "Parliament Hill Street Party",
+        path: "/images/parliament-hill.jpg",
+        thumbnailPath: "/images/parliament-hill-thumbnail.jpg",
+        isInCarousel: false,
+        isInGallery: true
+    },
+    {
         name: "Mansfield Street Party 15",
         path: "/images/mansfield/mansfield-15.jpg",
         thumbnailPath: "/images/mansfield/mansfield-15-thumbnail.jpg",

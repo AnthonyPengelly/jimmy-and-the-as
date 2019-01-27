@@ -5,6 +5,7 @@
 * Install NPM and Node
 * Run `npm install`
 * Run `npm start` to start up a web server with live reloading
+* Visit http://localhost:8081
 
 ## Deployment
 CI is performed by travis here: https://travis-ci.org/AnthonyPengelly/jimmy-and-the-as

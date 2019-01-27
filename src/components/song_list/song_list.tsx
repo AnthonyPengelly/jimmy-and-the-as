@@ -18,12 +18,15 @@ export class SongList extends React.Component<{}, {}> {
                         <li>Umbrella - Rihanna (<a href="/audio/Umbrella.mp3" download={true}>Download</a>)</li>
                         <li>Brown Eyed Girl - Van Morrison (<a href="/audio/Brown Eyed Girl.mp3" download={true}>Download</a>)</li>
                         <li>King/Desire - Years &amp; Years</li>
+                        <li>Send Me On My Way - Rusted Root</li>
                         <li>Please Don't Stop the Music - Rihanna</li>
                         <li>Under the Sea - Disney</li>
                         <li>My Girl - The Temptations</li>
                         <li>Dreaming of You - The Coral</li>
                         <li>Fiesta - The Pogues</li>
+                        <li>Don't Feel Like Dancing - Scissor Sisters</li>
                         <li>I Wanna Be Like You - Disney</li>
+                        <li>It Must Be Love - Madness</li>
                         <li>10/10 - Paolo Nutini</li>
                         <li>Hold Back the River/All these things I've done - James Bay/The Killers</li>
                     </ul>
@@ -32,10 +35,13 @@ export class SongList extends React.Component<{}, {}> {
                     <ul>
                         <li>Take on Me - A-ha</li>
                         <li>No Diggity - Blackstreet</li>
+                        <li>Candyman - Christina Aguilera</li>
                         <li>Toxic/Pump It - Britney Spears/The Black Eyed Peas (<a href="/audio/toxic.mp3" download={true}>Download</a>)</li>
                         <li>Can't Hold Us - Macklemore/Ryan Lewis</li>
+                        <li>Shut Up and Dance - Walk the Moon</li>
                         <li>Cry Me a River - Justin Timberlake</li>
                         <li>Pencil Full of Lead - Paolo Nutini</li>
+                        <li>Uptown Funk - Mark Ronson ft. Bruno Mars</li>
                         <li>Problem - Ariana Grande (<a href="/audio/Problem.mp3" download={true}>Download</a>)</li>
                         <li>Come on Eileen - Dexys Midnight Runners</li>
                         <li>I Will Wait - Mumford &amp; Sons</li>

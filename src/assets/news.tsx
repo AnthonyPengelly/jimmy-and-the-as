@@ -13,10 +13,8 @@ const news: NewsItem[] = [
         title: "Charity Rockstock 2018",
         content: 
             <p>
-                Jimmy &amp; the As will be playing at <a href="https://www.facebook.com/events/868027593368231/" target="_blank">Rockstock 2018</a>.
-                Since it's called "Rockstock", perhaps we should make this our first electric gig?              
-                <br /><br />
-                Come along and support us alongside some fantastic bands!
+                Had an amazing time playing at <a href="https://www.facebook.com/events/868027593368231/" target="_blank">Rockstock 2018</a>.
+                The crowd were on top form and we were thrilled to play alongside some other awesome bands.
             </p>
         ,
         imagePath: "/images/rockstock-thumbnail.jpg",
